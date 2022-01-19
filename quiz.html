@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz | DevWeb | Questions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <section class="box">
+
+    <!--La progressBar-->
+    <div>
+      <p id="progressionQuestions">Question</p>
+      <div id="progressBar">
+        <div id="RemplissageProgressBar"></div>
+      </div>
+    </div>
+
+    <!--Le score en cours-->
+    <div class="ecartScore">
+      <div>
+        <p>Score : </p>
+      </div>
+      <div>
+        <p id="score"> 0</p>
+      </div>
+    </div>
+
+    <!--Le bloc de questions avec les choix de réponses-->
+    <h3 id="question"></h3>
+    <div class="blocChoix">
+      <p class="choix" data-number="1"></p>
+    </div>
+    <div class="blocChoix">
+      <p class="choix" data-number="2"></p>
+    </div>
+    <div class="blocChoix">
+      <p class="choix" data-number="3"></p>
+    </div>
+    <div class="blocChoix">
+      <p class="choix" data-number="4"></p>
+    </div>
+
+  </section>
+
+  <script src="quiz.js"></script>
+
+</body>
+
+</html>

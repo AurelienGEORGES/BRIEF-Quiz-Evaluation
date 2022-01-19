@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Dans quelle balise mettre du JavaScript?",
+    "choice1": "<script>",
+    "choice2": "<javascript>",
+    "choice3": "<js>",
+    "choice4": "<scripting>",
+    "answer": 1
+  },
+  {
+    "question": "Comment appelle t on un fichier 'xxx.js'?",
+    "choice1": "<script href='xxx.js'>",
+    "choice2": "<script name='xxx.js'>",
+    "choice3": "<script src='xxx.js'>",
+    "choice4": "<script file='xxx.js'>",
+    "answer": 3
+  },
+  {
+    "question": "Comment s'écrit 'Hello World' dans une alert box?",
+    "choice1": "msgBox('Hello World');",
+    "choice2": "alertBox('Hello World');",
+    "choice3": "msg('Hello World');",
+    "choice4": "alert('Hello World');",
+    "answer": 4
+  },
+  {
+    "question": "Comment s'appelle la balise bloc?",
+    "choice1": "<div>",
+    "choice2": "<bloc>",
+    "choice3": "<strong>",
+    "choice4": "<code>",
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelle la balise titre?",
+    "choice1": "<title>",
+    "choice2": "<h1>",
+    "choice3": "<titre>",
+    "choice4": "<text>",
+    "answer": 2
+  },
+  {
+    "question": "Comment s'appelle l'extension d'un fichier CSS?",
+    "choice1": ".css",
+    "choice2": ".style",
+    "choice3": ".js",
+    "choice4": ".text",
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelle l'extension d'un fichier JavaScript?",
+    "choice1": ".script",
+    "choice2": ".dom",
+    "choice3": ".js",
+    "choice4": ".html",
+    "answer": 3
+  },
+  {
+    "question": "A quoi sert SQL?",
+    "choice1": "a gérer une base de données",
+    "choice2": "a gérer des accès utilisateurs",
+    "choice3": "a communiquer avec les fichiers script",
+    "choice4": "a intéragir avec du code source",
+    "answer": 1
+  },
+  {
+    "question": "A quoi sert PHP?",
+    "choice1": "a gérer des mails",
+    "choice2": "a gérer des formulaires",
+    "choice3": "a communiquer avec les fichiers DOM",
+    "choice4": "a gérer la partie back-end d'un site",
+    "answer": 4
+  },
+  {
+    "question": "Comment s'écrit la balise HTML de paragraphe?",
+    "choice1": "<text>",
+    "choice2": "<para>",
+    "choice3": "<p>",
+    "choice4": "<em>",
+    "answer": 3
+  },
+  {
+    "question": "Comment s'écrit la balise HTML de formulaire?",
+    "choice1": "<form>",
+    "choice2": "<f>",
+    "choice3": "<text>",
+    "choice4": "<choice>",
+    "answer": 1
+  },
+  {
+    "question": "Comment s'écrit une classe en css?",
+    "choice1": "avec un .",
+    "choice2": "avec un #",
+    "choice3": "avec un ?",
+    "choice4": "avec un !",
+    "answer": 1
+  },
+  {
+    "question": "Comment s'écrit une id en css?",
+    "choice1": "avec un .",
+    "choice2": "avec un #",
+    "choice3": "avec un ?",
+    "choice4": "avec un !",
+    "answer": 2
+  },
+  {
+    "question": "A quoi sert margin en css?",
+    "choice1": "a ajouter de l'espace",
+    "choice2": "a rajouter un point",
+    "choice3": "a enlever une notation",
+    "choice4": "a supprimer du texte",
+    "answer": 1
+  },
+  {
+    "question": "A quoi sert color en css?",
+    "choice1": "a changer la couleur",
+    "choice2": "a enlever du texte",
+    "choice3": "a encadrer le texte",
+    "choice4": "a supprimer du contenu",
+    "answer": 1
+  },
+  {
+    "question": "A quoi correspond for en langage de programmation?",
+    "choice1": "c'est une boucle",
+    "choice2": "c'est un formulaire",
+    "choice3": "c'est une formule mathématique",
+    "choice4": "c'est un appel de fonction",
+    "answer": 1
+  },
+  {
+    "question": "A quoi correspond const en JavaScript",
+    "choice1": "c'est une boucle",
+    "choice2": "c'est une itération",
+    "choice3": "c'est une constatation",
+    "choice4": "c'est une constante",
+    "answer": 4
+  },
+  {
+    "question": "A quoi correspond font-size en CSS",
+    "choice1": "c'est une déclaration",
+    "choice2": "c'est une variable",
+    "choice3": "c'est la taille de la police",
+    "choice4": "c'est la taille du body",
+    "answer": 3
+  },
+  {
+    "question": "A quoi correspond background-color en CSS",
+    "choice1": "c'est pour modifier une valeure",
+    "choice2": "c'est la taille du texte",
+    "choice3": "c'est la taille du script",
+    "choice4": "c'est la couleur de l'arrière plan",
+    "answer": 4
+  },
+  {
+    "question": "A quoi sert la balise <img> en HTML",
+    "choice1": "A appeler une fonction",
+    "choice2": "A modifier du contenu",
+    "choice3": "A ajouter une image",
+    "choice4": "A supprimer une image",
+    "answer": 3
+  },
+  {
+    "question": "A quoi sert la balise <a> en HTML",
+    "choice1": "A modifier du contenu",
+    "choice2": "A modifier une variable",
+    "choice3": "A ajouter un lien",
+    "choice4": "A supprimer un lien",
+    "answer": 3
+  },
+  {
+    "question": "A quoi sert JavaScript",
+    "choice1": "A modifier une base de donnée",
+    "choice2": "A supprimer un site",
+    "choice3": "A rendre le site plus fluide",
+    "choice4": "A rendre le site dynamique",
+    "answer": 4
+  },
+  {
+    "question": "A quoi sert la balise <br> en HTML",
+    "choice1": "A revenir à la ligne",
+    "choice2": "A faire un break",
+    "choice3": "A casser du code",
+    "choice4": "A changer de style",
+    "answer": 1
+  },
+  {
+    "question": "A quoi sert la balise <root> en HTML",
+    "choice1": "A revenir à la racine du projet",
+    "choice2": "cette balise n'existe pas",
+    "choice3": "A changer du code",
+    "choice4": "A changer de site",
+    "answer": 2
+  },
+  {
+    "question": "A quoi sert la balise <hr> en HTML",
+    "choice1": "A créer un lien",
+    "choice2": "Cette balise n'existe pas",
+    "choice3": "A changer de partie",
+    "choice4": "A faire une ligne",
+    "answer": 4
+  }
+]

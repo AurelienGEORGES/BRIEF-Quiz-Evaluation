@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz | DevWeb - Fin du quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <section class="box">
+
+    <!--Affichage du score final-->
+    <h2>Ton score : </h2>
+    <h2 id="finalScore"></h2>
+
+    <!--Formulaire pour saisir le nom du joueur-->
+    <form>
+      <input type="text" name="username" id="username" placeholder="pseudo" />
+      <button type="submit" class="customBouton" id="saveScoreBtn" onclick="saveHighScore(event)"
+        disabled>Enregistrer</button>
+    </form>
+
+    <!--Liens pour rejouer et revenir à la page d'acceuil-->
+    <div class="ajustementBouton">
+      <a class="customBouton" href="quiz.html">Rejouer</a>
+    </div>
+    <div class="ecartBouton">
+      <a class="customBouton" href="index.html">Accueil</a>
+    </div>
+
+  </section>
+
+  <script src="quizScore.js"></script>
+
+</body>
+
+</html>
