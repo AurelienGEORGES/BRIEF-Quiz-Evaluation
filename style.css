@@ -52,7 +52,8 @@
       flex-direction: column;
       text-align: center;
   }
-  
+ /*Les Boutons*/
+
   .ecartBouton {
     margin-top: 50px;
   }
@@ -60,9 +61,7 @@
   .ajustementBouton {
       margin-top: 20px;
   }
-  
-  /*Les Boutons*/
-  
+
   .customBouton {
     font-size: 30px;
     padding: 10px 10px 10px 10px;
@@ -129,6 +128,7 @@
 .incorrect {
     background-color: red;
 }
+
 
 /*Style de la progress bar*/
     

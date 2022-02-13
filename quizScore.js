@@ -1,5 +1,4 @@
 //définition des constantes pour sauvegarder le score
-
 //on va récupérer les données saisies dans l'input 
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
@@ -10,7 +9,6 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 //les scores les plus élevés
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-
 finalScore.innerText = mostRecentScore;
 
 //la saisie de l'input
@@ -18,7 +16,7 @@ username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-// fonction qui permet de sauvegarder le score
+// fonction qui permet de sauvegarder les meilleurs scores
 saveHighScore = (e) => {
     e.preventDefault();
     //récupération du score et du nom
@@ -34,5 +32,6 @@ saveHighScore = (e) => {
     highScores.splice(5);
     //chargement du score dans le local storage
     localStorage.setItem('highScores', JSON.stringify(highScores));
+    //window.location.assign('/');
     window.location.assign('index.html');
 };

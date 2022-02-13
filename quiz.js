@@ -1,5 +1,6 @@
 //définition des variables pour la page de quiz
 const question = document.getElementById('question');
+const descriptionReponse = document.getElementById('descriptionReponse');
 const choices = Array.from(document.getElementsByClassName('choix'));
 const progressionQuestions = document.getElementById('progressionQuestions');
 const scoreEnCours = document.getElementById('score');
@@ -7,7 +8,6 @@ const RemplissageProgressBar = document.getElementById('RemplissageProgressBar')
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
-//initialisation du compteur de question
 let questionCounter = 0;
 let availableQuestions = [];
 let questions = [];
@@ -42,7 +42,7 @@ startGame = () => {
 //Chargement des questions
 getNewQuestion = () => {
 
-    //lorsqu'on a fini le questionnaire
+    //condition de fin du questionnaire
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         //charger le score dans le local storage
         localStorage.setItem('mostRecentScore', score);
@@ -61,6 +61,7 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
+
 
     //affichage des réponses
     choices.forEach((choice) => {
@@ -81,24 +82,34 @@ choices.forEach((choice) => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
+        //définition de la classe suivant si la reponse selectionnée est correcte ou incorrecte 
         const classToApply =
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-
+        
+        //si la reponse est juste on incremente le score 
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
 
+        //ajout de la classe à la réponse sélectionnée
         selectedChoice.parentElement.classList.add(classToApply);
+
+        //
+
+        //ajout de la description lorsque la réponse est incorrecte
+        if (classToApply === 'incorrect') {
+        descriptionReponse.innerText = currentQuestion['descriptionReponse'];       
+        }
         
         //appel de la nouvelle question après que la réponse soit donnée
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 2000);
     });
 });
 
-//incrementation du score
+//fonction qui incremente le score 
 incrementScore = (num) => {
     score += num;
     scoreEnCours.innerText = score;

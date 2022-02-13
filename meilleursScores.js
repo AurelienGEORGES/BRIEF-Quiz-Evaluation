@@ -2,7 +2,7 @@
 const highScoresList = document.getElementById("listeMeilleursScores");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-//Affichage des cinq meilleurs scores
+//Affichage des cinq meilleurs scores en remplissant la liste 
 highScoresList.innerHTML = highScores
   .map(score => {
     return `<li>${score.name} - ${score.score}</li>`;
