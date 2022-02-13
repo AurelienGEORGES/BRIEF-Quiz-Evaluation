@@ -104,8 +104,9 @@ choices.forEach((choice) => {
         //appel de la nouvelle question après que la réponse soit donnée
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            descriptionReponse.innerText=''; 
             getNewQuestion();
-        }, 2000);
+        }, 3000);
     });
 });
 

@@ -1,6 +1,7 @@
 //définition des constantes pour sauvegarder le score
 //on va récupérer les données saisies dans l'input 
 const username = document.getElementById('username');
+//On prend l'Id du bouton enregistrer
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 //le score final
 const finalScore = document.getElementById('finalScore');
