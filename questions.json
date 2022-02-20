@@ -144,7 +144,7 @@
     "descriptionReponse": "La bonne réponse est la 1 : une boucle sert à faire des itérations"
   },
   {
-    "question": "A quoi correspond const en JavaScript",
+    "question": "A quoi correspond const en JavaScript?",
     "choice1": "c'est une boucle",
     "choice2": "c'est une itération",
     "choice3": "c'est une constatation",
@@ -153,7 +153,7 @@
     "descriptionReponse": "La bonne réponse est la 4 : avec const on déclare une constante"
   },
   {
-    "question": "A quoi correspond font-size en CSS",
+    "question": "A quoi correspond font-size en CSS?",
     "choice1": "c'est une déclaration",
     "choice2": "c'est une variable",
     "choice3": "c'est la taille de la police",
@@ -162,7 +162,7 @@
     "descriptionReponse": "La bonne réponse est la 3 : ça définit la taille de l'écriture"
   },
   {
-    "question": "A quoi correspond background-color en CSS",
+    "question": "A quoi correspond background-color en CSS?",
     "choice1": "c'est pour modifier une valeure",
     "choice2": "c'est la taille du texte",
     "choice3": "c'est la taille du script",
@@ -171,7 +171,7 @@
     "descriptionReponse": "La bonne réponse est la 4 : ça définit la couleur de l'arrière plan"
   },
   {
-    "question": "A quoi sert la balise <img> en HTML",
+    "question": "A quoi sert la balise <img> en HTML?",
     "choice1": "A appeler une fonction",
     "choice2": "A modifier du contenu",
     "choice3": "A ajouter une image",
@@ -180,7 +180,7 @@
     "descriptionReponse": "La bonne réponse est la 3 : cette balise sert à créer une image"
   },
   {
-    "question": "A quoi sert la balise <a> en HTML",
+    "question": "A quoi sert la balise <a> en HTML?",
     "choice1": "A modifier du contenu",
     "choice2": "A modifier une variable",
     "choice3": "A ajouter un lien",
@@ -189,7 +189,7 @@
     "descriptionReponse": "La bonne réponse est la 3 : cette balise sert à créer un lien"
   },
   {
-    "question": "A quoi sert JavaScript",
+    "question": "A quoi sert JavaScript?",
     "choice1": "A modifier une base de donnée",
     "choice2": "A supprimer un site",
     "choice3": "A rendre le site plus fluide",
@@ -198,7 +198,7 @@
     "descriptionReponse": "La bonne réponse est la 4 : JS sert à créer des sites dynamiques"
   },
   {
-    "question": "A quoi sert la balise <br> en HTML",
+    "question": "A quoi sert la balise <br> en HTML?",
     "choice1": "A revenir à la ligne",
     "choice2": "A faire un break",
     "choice3": "A casser du code",
@@ -207,7 +207,7 @@
     "descriptionReponse": "La bonne réponse est la 1 : on revient à la ligne"
   },
   {
-    "question": "A quoi sert la balise <root> en HTML",
+    "question": "A quoi sert la balise <root> en HTML?",
     "choice1": "A revenir à la racine du projet",
     "choice2": "cette balise n'existe pas",
     "choice3": "A changer du code",
@@ -216,7 +216,7 @@
     "descriptionReponse": "La bonne réponse est la 2 : il n'y a pas de balise racine"
   },
   {
-    "question": "A quoi sert la balise <hr> en HTML",
+    "question": "A quoi sert la balise <hr> en HTML?",
     "choice1": "A créer un lien",
     "choice2": "Cette balise n'existe pas",
     "choice3": "A changer de partie",
